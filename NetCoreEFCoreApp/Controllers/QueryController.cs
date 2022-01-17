@@ -16,6 +16,7 @@ namespace NetCoreEFCoreApp.Controllers
         public QueryController(AppDbContext db) //Dependency Injection (DI constructor üzerinden bir nesneye başka nesnenin instance gönderilmesi DI diyoruz.)
         {
             _db = db;
+
         }
         public IActionResult Index()
         {
